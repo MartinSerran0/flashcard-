@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+oot{
+--text-color: #020722;
+--card-front-color: #4f7db8;
+--card-front-color: #df1350;
+
+
+dy{
+background: url(img/bg-desktop-green.webp);
+font-family:Gluten;
+
+artao__conteudo{
+    background-color: var(--card-front-color);
+    text-aling:center;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartao{
+    margin: 1rem 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%- 6rem);
+}
+.cartao__conteudo p {
+    padding: 4rem;
+    margin-top: 4rem;
+}
+.cartao__conteudo h3{
+    color:var(--text-color);
+    border: 1px solid var(--text-color);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    backface-visibility: hidden;
+}
+.cartao__conteudo__pergunta p {
+    color:var(--text-color);
+    font-weight: 500;
+}
+.cartao__conteudo__pergunta p{
+    color:var(--card-front-color)
+    font-weight: 700;
+}
+.cartao:hover .cartao__conteudo{
+    transform: rotateY(180deg);
+}
+.cartao__conteudo__pergunta{
+.cartao__conteudo__resposta
+backface-visibility: hidden;
+position: 100%;
+width: 100%;
+}
+
+
+
